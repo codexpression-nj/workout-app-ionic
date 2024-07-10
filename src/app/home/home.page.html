@@ -1,20 +1,16 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content [fullscreen]="true" color=''>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div style="background-color: black;display: flex;flex-direction: row;height: 20%;align-items: center;padding: 16px;">
+    <ion-avatar style="height: 80px; width: 80px;border-width: 2px;--border-color: #B1EB49; ">
+      <ion-img src={{user?.imageUrl}}></ion-img>
+    </ion-avatar>
+    <div style="display: flex;flex-direction: column; margin: 16px;">
+      <ion-text style="color: white;">{{user?.name}}</ion-text>
+      <ion-text style="color: gray;">{{user?.email}}</ion-text>
+    </div>
   </div>
+  
+ <ion-button fill="clear" color='danger' >
+  <ion-text>Sign Out</ion-text>
+ </ion-button>
 </ion-content>

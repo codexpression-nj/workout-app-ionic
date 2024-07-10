@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">workout</string>
+    <string name="title_activity_main">workout</string>
+    <string name="package_name">io.ionic.workout</string>
+    <string name="custom_url_scheme">io.ionic.workout</string>
+      <string name="server_client_id">666786629384-e1mk0ddkessr2scq4utmb5v3i93pac2j.apps.googleusercontent.com</string>
+
+</resources>
